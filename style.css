@@ -27,7 +27,7 @@ h2{
 }
 p{
     width:1000px;
- font-size: 35px;
+    font-size: 35px;
     margin: 43px;
     text-shadow: 2px 2px black;
     color: white;
@@ -54,9 +54,41 @@ body {
     background-size:1600px 760px;
 
 }
-h3{
+ul{
+    list-style-type: none;
+    margin: 250px;
+    padding: 0;
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+}
+.topnav {
+    background-color: midnightblue;
+    position: relative;
+    top: -35px;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a {
+    color: white;
+    padding: 20px 100px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 .dark-mode{
     background-image: url('https://t3.ftcdn.net/jpg/00/73/08/22/360_F_73082224_ay4Tus31QNHNmGSIty53ZE6mBrBc47cV.jpg');
