@@ -1,0 +1,90 @@
+h1{
+    display: inline-block;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+main{
+    padding:10px;
+    height:1000px;
+    width:1460px;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
+p{
+    width:1325px;
+    font-size: 40px;
+    margin: 45px;
+    text-shadow: 2px 2px black;
+    color: white;
+    text-align: center;
+
+
+}
+
+img{
+    height:325px;
+    width: 375px;
+
+}
+
+footer {
+    text-align: end;
+    color: white;
+
+}
+body {
+    background-image: url('https://img.freepik.com/vrije-vector/neonframe-in-de-lucht_23-2149093203.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:1560px 740px;
+}
+h3{
+    Color:white;
+    display: flex;
+    justify-content:space-around;
+}
+.terugpijl{
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    top: 5vh;
+    right: 5vh;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+a:hover {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.dark-mode{
+    background-image: url('https://t3.ftcdn.net/jpg/00/73/08/22/360_F_73082224_ay4Tus31QNHNmGSIty53ZE6mBrBc47cV.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:1600px 760px;
+    opacity: 60%;
+    button{
+    font-size: 20px;
+    color: black;
+    background-color: white;
+
+}
+}
+button{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}

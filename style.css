@@ -1,0 +1,120 @@
+header{
+    Background-color:midnightblue;
+    height: 100px;
+    width: 1500px;
+    text-align: center;
+}
+
+h1{
+    display: inline-block;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+main{
+    padding:10px;
+    height:1000px;
+    width:1463px;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+h2{
+    margin:43px;
+    font-size:40px;
+    color: white;
+}
+p{
+    width:1000px;
+ font-size: 35px;
+    margin: 43px;
+    text-shadow: 2px 2px black;
+    color: white;
+
+}
+
+img{
+    height:325px;
+    width: 375px;
+
+}
+
+footer {
+    background-color: midnightblue;
+    color: white;
+    height:100px;
+    font-size: 20px;
+
+}
+body {
+    background-image: url('https://img.freepik.com/premium-photo/blue-binary-data-computer-screen-cyber-code-coding-communication-digital-cyberspace_817921-9215.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:1600px 760px;
+
+}
+h3{
+    display: flex;
+    justify-content:space-around;
+}
+.dark-mode{
+    background-image: url('https://t3.ftcdn.net/jpg/00/73/08/22/360_F_73082224_ay4Tus31QNHNmGSIty53ZE6mBrBc47cV.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:1600px 760px;
+    opacity: 60%;
+    button{
+        font-size: 20px;
+        color: black;
+        background-color: white;
+
+    }
+
+}
+
+
+#div1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-delay: 1750ms;
+    animation: mymove 3257ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#div2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-delay: 1750ms;
+    animation: mymove 3257ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#div3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-delay: 1750ms;
+    animation: mymove 3257ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes mymove {
+    from {left:-1720px;}
+    to {left: 2520px;}
+}
+.Logo{
+    align-content: flex-end;
+}
+button{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
