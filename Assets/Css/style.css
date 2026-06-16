@@ -28,7 +28,7 @@ header {
 
 h1 {
     color: white;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 1px black;
     font-size: 42px;
     margin: 0;
 }
@@ -39,11 +39,11 @@ h1 {
     width: 100%;
     list-style-type: none;
     margin: 0;
-    padding: 15px 0;
+    padding: 12px 0;
     display: flex;
     justify-content: center;
-    gap: 150px;
-    text-shadow: 2px 1px black;
+    gap: 200px;
+    text-shadow: 1px 0px black;
 }
 
 .topnav li {
@@ -55,14 +55,15 @@ h1 {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    padding: 12px 20px;
+    padding: 15px 20px;
     display: block;
+    text-shadow: 1px 0 black;
 }
 
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-    text-shadow: 2px 2px white;
+    text-shadow: 1px 0 white;
 }
 
 /* MAIN */
@@ -71,13 +72,14 @@ main {
     width: 100%;
     padding: 50px 65px;
     color: white;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 0px black;
 }
 
 h2 {
     font-size: 45px;
     color: white;
     margin-bottom: 35px;
+    text-shadow: 2px 1px black;
 }
 
 p {
@@ -85,7 +87,7 @@ p {
     font-size: 38px;
     line-height: 1.35;
     color: white;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 1px black;
 }
 
 /* MOVING CARS */
@@ -108,10 +110,10 @@ p {
 
 @keyframes mymove {
     from {
-        left: -7200px;
+        left: -17200px;
     }
     to {
-        left: 110%;
+        left: 200%;
     }
 }
 
