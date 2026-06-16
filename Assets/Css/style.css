@@ -1,88 +1,61 @@
-header{
-    Background-color:midnightblue;
-    height: 100px;
-    width: 1600px;
-    text-align: center;
-    margin: -12px;
+* {
+    box-sizing: border-box;
 }
 
-h1{
-    display: inline-block;
-    color: white;
-    text-shadow: 2px 2px black;
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-
-main{
-    padding:10px;
-    height:1200px;
-    width:1463px;
-    color: white;
-    text-shadow: 2px 2px black;
-
-}
-h2{
-    margin:43px;
-    font-size:40px;
-    color: white;
-}
-p{
-    width:1000px;
-    font-size: 35px;
-    margin: 43px;
-    text-shadow: 2px 2px black;
-    color: white;
-
-}
-
-img{
-    height:325px;
-    width: 375px;
-
-}
-
-footer {
-    background-color: midnightblue;
-    color: white;
-    height:100px;
-    font-size: 20px;
-    margin: -10px;
-
-}
 body {
     background-image: url('https://img.freepik.com/premium-photo/blue-binary-data-computer-screen-cyber-code-coding-communication-digital-cyberspace_817921-9215.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:1600px 760px;
+    background-size: cover;
+    background-position: center;
+    font-family: "Times New Roman", serif;
 }
-ul{
-    list-style-type: none;
-    margin: 200px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-ul li a {
-    color: white;
+
+/* HEADER */
+header {
+    background-color: midnightblue;
+    min-height: 120px;
+    width: 100%;
     text-align: center;
-    padding: 14px 100px;
-    text-decoration: none;
+    padding-top: 20px;
 }
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 42px;
+    margin: 0;
+}
+
+/* TOP NAVIGATION */
 .topnav {
     background-color: midnightblue;
-    position: relative;
-    top: -35px;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
     display: flex;
     justify-content: center;
-    margin:-10px;
+    gap: 150px;
     text-shadow: 2px 1px black;
+}
+
+.topnav li {
+    margin: 0;
+    padding: 0;
 }
 
 .topnav a {
     color: white;
-    padding: 20px 100px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+    padding: 12px 20px;
     display: block;
 }
 
@@ -92,38 +65,82 @@ ul li a {
     text-shadow: 2px 2px white;
 }
 
-#div1 {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    animation-delay: 1750ms;
-    animation: mymove 3257ms;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-#div2 {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    animation-delay: 1750ms;
-    animation: mymove 3257ms;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-#div3 {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    animation-delay: 1750ms;
-    animation: mymove 3257ms;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-}
-@keyframes mymove {
-    from {left:-7420px;}
-    to {left: 2420px;}
+/* MAIN */
+main {
+    min-height: 1000px;
+    width: 100%;
+    padding: 50px 65px;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
+h2 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+p {
+    max-width: 1050px;
+    font-size: 38px;
+    line-height: 1.35;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/* MOVING CARS */
+#div1,
+#div2,
+#div3 {
+    width: 100px;
+    height: 120px;
+    position: relative;
+    animation: mymove 3257ms infinite linear;
+}
+
+#div2 {
+    animation-timing-function: ease-in-out;
+}
+
+#div3 {
+    animation-timing-function: ease-in;
+}
+
+@keyframes mymove {
+    from {
+        left: -7200px;
+    }
+    to {
+        left: 110%;
+    }
+}
+
+/* ICON NAVIGATION LOWER ON PAGE */
+main nav ul {
+    list-style-type: none;
+    margin: 40px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    align-items: center;
+}
+
+main nav ul li a {
+    padding: 0;
+}
+
+main nav img {
+    width: 150px;
+    height: 150px;
+}
+
+/* FOOTER */
+footer {
+    background-color: midnightblue;
+    color: white;
+    min-height: 90px;
+    width: 100%;
+    font-size: 22px;
+    padding: 30px 20px;
+}
