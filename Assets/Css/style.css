@@ -67,6 +67,7 @@ h1 {
 }
 
 /* MAIN */
+
 main {
     min-height: 1000px;
     width: 100%;
@@ -89,7 +90,71 @@ p {
     color: white;
     text-shadow: 2px 1px black;
 }
+.about-preview {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 
+.profile-card {
+    min-height: 230px;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.profile-image-side {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.profile-text-side {
+    width: 55%;
+    background-color: #0d6efd;
+    color: white;
+    padding: 35px 40px 35px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.profile-text-side h2 {
+    font-size: 32px;
+    margin-bottom: 18px;
+    margin-top: -15px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.profile-text-side p {
+    font-size: 18px;
+    margin: 0;
+    text-shadow: 2px 2px 3px black;
+}
+
+.text-card {
+    min-height: 260px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 2px 2px 3px black;
+}
 /* MOVING CARS */
 #div1,
 #div2,
