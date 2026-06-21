@@ -20,10 +20,10 @@ body {
 /* HEADER */
 header {
     background-color: midnightblue;
-    min-height: 120px;
+    min-height: 100px;
     width: 100%;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 8px;
 }
 
 h1 {
@@ -39,11 +39,11 @@ h1 {
     width: 100%;
     list-style-type: none;
     margin: 0;
-    padding: 12px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
     gap: 200px;
-    text-shadow: 1px 0px black;
+    text-shadow: 1px 0 black;
 }
 
 .topnav li {
@@ -72,7 +72,7 @@ main {
     width: 100%;
     padding: 50px 65px;
     color: white;
-    text-shadow: 1px 0px black;
+    text-shadow: 1px 0 black;
 }
 
 h2 {
@@ -98,6 +98,9 @@ p {
     height: 120px;
     position: relative;
     animation: mymove 3257ms infinite linear;
+}
+#div1{
+    animation-timing-function: ease-out;
 }
 
 #div2 {
@@ -145,4 +148,85 @@ footer {
     width: 100%;
     font-size: 22px;
     padding: 30px 20px;
+}
+.page-btn {
+    width: 190px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.page-img {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.page-img img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.page-img img {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+}
+
+.page-text {
+    width: 55%;
+    height: 100%;
+    background-color: #0d6efd;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+
+    clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.page-btn::before {
+    display: none;
+}
+
+.page-btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    color: white;
+    transform: scale(1.04);
+    transition: 0.2s;
+}
+.interview-btn .page-text {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.overmij-btn .page-text {
+    background-color: #ffc107;
+    color: white;
+}
+
+.contact-btn .page-text {
+    background-color: #198754;
+    color: white;
+}
+
+.projecten-btn .page-text {
+    background-color: #dc3545;
+    color: white;
 }
