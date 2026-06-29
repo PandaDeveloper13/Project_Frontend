@@ -45,28 +45,4 @@ a:active {
     text-decoration: underline;
     text-shadow: 2px 2px black;
 }
-.terugpijl{
-    position: absolute;
-    width: 87px;
-    height: 87px;
-    top: 5vh;
-    right: 5vh;
-}
-.dark-mode{
-    background-image: url('https://t3.ftcdn.net/jpg/00/73/08/22/360_F_73082224_ay4Tus31QNHNmGSIty53ZE6mBrBc47cV.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:1600px 760px;
-    opacity: 60%;
-    button{
-        font-size: 20px;
-        color: black;
-        background-color: white;
 
-    }
-}
-button{
-     font-size: 20px;
-     color: white;
-     background-color: black;
- }

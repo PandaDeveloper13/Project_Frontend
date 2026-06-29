@@ -7,23 +7,16 @@ body {
     min-height: 100vh;
 }
 
-button {
-    font-size: 20px;
+a:link {
     color: white;
-    background-color: black;
-    border: 1px solid white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 20;
+    background-color: transparent;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
 }
-
-.terugpijl {
-    position: absolute;
-    width: 87px;
-    height: 87px;
-    top: 5vh;
-    right: 5vh;
+a:hover{
+    color: white;
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
 }
 
 .projecten-container {
@@ -90,62 +83,4 @@ button {
 
 .project-foto-placeholder::after {
     transform: rotate(-25deg);
-}
-
-/* Dark mode */
-.dark-mode {
-    background-image: url('https://t3.ftcdn.net/jpg/00/73/08/22/360_F_73082224_ay4Tus31QNHNmGSIty53ZE6mBrBc47cV.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.dark-mode button {
-    font-size: 20px;
-    color: black;
-    background-color: white;
-}
-
-
-@media (max-width: 768px) {
-    .projecten-container {
-        padding-top: 120px;
-    }
-
-    .projecten-titel {
-        font-size: 38px;
-        margin-bottom: 50px;
-    }
-
-    .terugpijl {
-        width: 65px;
-        height: 65px;
-        top: 4vh;
-        right: 3vh;
-    }
-
-    .project-blok {
-        padding: 20px;
-        margin-bottom: 60px;
-    }
-    .project-foto {
-        max-width: 100%;
-        width: 450px;
-        height: 250px;
-        object-fit: cover;
-        border: 3px solid white;
-        display: block;
-    }
-
-    .project-tekst {
-        padding: 25px 5px 5px 5px;
-    }
-
-    .project-tekst h2 {
-        font-size: 26px;
-    }
-
-    .project-tekst p {
-        font-size: 18px;
-    }
 }
